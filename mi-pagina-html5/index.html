@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Primera Página HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a La Página Web RM</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Sección 1</a></li>
+                <li><a href="#seccion2">Sección 2</a></li>
+                <li><a href="https://www.linkedin.com/in/ronny-melo-b3ab7763?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Enlace Externo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccion1">
+            <h2>Encabezado de Sección</h2>
+            <p>Este es un <strong>párrafo</strong> con <em>formato</em> adicional.</p>
+
+            <article>
+                <h3>Artículo Relacionado</h3>
+                <p>Contenido adicional del artículo en formato HTML5.</p>
+            </article>
+
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Primer paso</li>
+                <li>Segundo paso</li>
+                <li>Tercer paso</li>
+            </ol>
+
+            <h3>Lista Desordenada</h3>
+            <ul>
+                <li>Elemento A</li>
+                <li>Elemento B</li>
+                <li>Elemento C</li>
+            </ul>
+        </section>
+
+        <section id="seccion2">
+            <h2>Galería Multimedia</h2>
+            <img src="assets/img/imagen1.png" alt="Descripción de la imagen">
+            <video controls width="400">
+                <source src="assets/video/video1.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </section>
+
+        <section>
+            <h2>Tabla de Datos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ronny</td>
+                        <td>36</td>
+                    </tr>
+                    <tr>
+                        <td>Luis</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>María</td>
+                        <td>28</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" name="correo"><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Diseñado por Ronny E. Melo P.</p>
+    </footer>
+</body>
+</html>
